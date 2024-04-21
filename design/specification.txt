@@ -1,0 +1,21 @@
+Specification: Dual port memory
+
+32 location
+8 bit 
+
+32 - 8bit dual port memory
+
+
+Ports:
+    clk
+    rst
+    addr
+    wdata - 8 bit
+    rdata - 8 bit
+    we
+    re
+
+-Async active high reset - reset val to 0 for all locations.
+
+
+
